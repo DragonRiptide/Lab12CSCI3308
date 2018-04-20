@@ -30,6 +30,6 @@ clean:
 	$(RM) geometry_test
 	$(RM) *~
 
-test: geometry_test.c
+test: geometry_test
 	./geometry_test
 
